@@ -12,4 +12,13 @@ export class Stats {
   get Name() {
     return this.name;
   }
+  set Max(value: number) {
+    this.Max = value;
+  }
+  set Min(value: number) {
+    this.min = value;
+  }
+  set Value(value: number) {
+    this.value = value;
+  }
 }

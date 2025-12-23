@@ -1,6 +1,9 @@
+import { Stats } from "./baseStat";
 class BaseCharacter {
   name: string;
-  constructor(name: string, stats) {
+  stats: Stats;
+  constructor(name: string, stats: Stats) {
     this.name = name;
+    this.stats = stats;
   }
 }
