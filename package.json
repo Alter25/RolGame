@@ -1,0 +1,6 @@
+{
+  "name":"RolGame",
+  "scripts": {
+    "dev":"bun src/main.ts"
+  }
+}
