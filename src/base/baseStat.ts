@@ -1,4 +1,4 @@
-export class Stats {
+export class State {
   name: string;
   max: number;
   min: number;
@@ -20,5 +20,8 @@ export class Stats {
   }
   set Value(value: number) {
     this.value = value;
+  }
+  toString() {
+    return `${this.name}: ${this.value}/${this.Max}`;
   }
 }

@@ -1,8 +1,9 @@
-import { Stats } from "./baseStat";
-class BaseCharacter {
+import { TypeStats } from "../types/types";
+
+export class BaseCharacter {
   name: string;
-  stats: Stats;
-  constructor(name: string, stats: Stats) {
+  stats: TypeStats;
+  constructor(name: string, stats: TypeStats) {
     this.name = name;
     this.stats = stats;
   }
