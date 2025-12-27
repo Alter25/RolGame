@@ -1,8 +1,9 @@
-import { TypeStats } from "../types/types";
-import { BaseCharacter } from "./been";
+import { State } from "./State";
+import { Entity } from "./Entity";
 
-export class Player extends BaseCharacter {
-  constructor(name: string, stats: TypeStats) {
-    super(name, stats);
+export class Player extends Entity {
+  constructor(name: string, stats: State) {
+    super(name);
   }
+  
 }
